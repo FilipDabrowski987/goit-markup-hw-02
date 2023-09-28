@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #434455;
+    font-size: 24px;
+}
+
+header {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-transform: capitalize;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button-order,
+.button-all {
+    color: white
+}
+
+footer {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+}
+
+.contact-link {
+    color: #434455;
+}
+
+.filtr:hover,
+.filtr:focus {
+    color: #4D5AE5
+}
+
+.link:hover,
+.link:focus {
+    color: #4D5AE5
+}
+
+.main {
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    text-transform: uppercase;
+
+}
