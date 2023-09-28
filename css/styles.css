@@ -11,6 +11,10 @@ header {
     line-height: 1.5;
 }
 
+span {
+color: #2e2f42;
+}
+
 h1 {
     font-size: 60px;
     font-weight: 700;
@@ -70,12 +74,13 @@ footer {
     color: #4D5AE5
 }
 
-.main {
+.logo {
     font-size: 18px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
+    color: #4d5ae5;
 
 }
