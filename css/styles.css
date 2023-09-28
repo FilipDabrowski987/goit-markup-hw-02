@@ -82,5 +82,8 @@ footer {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+}
 
+.list {
+    list-style: none;
 }
