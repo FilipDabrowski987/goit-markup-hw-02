@@ -15,7 +15,7 @@ header {
     line-height: 1.5;
 }
 
-span {
+.header {
 color: #2e2f42;
 }
 
@@ -28,9 +28,10 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -91,6 +92,10 @@ footer {
     color: #f4f4fd;
     background-color: #2e2f42;
     letter-spacing: 0.03em;
+}
+
+.footer {
+    color: #f4f4fd;
 }
 
 .contact {
