@@ -45,7 +45,7 @@ p {
     line-height: 1.5;
 }
 
-button {
+.button {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -66,6 +66,7 @@ button {
 
 .all:hover,
 .all:focus {
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 
