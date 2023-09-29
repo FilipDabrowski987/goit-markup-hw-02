@@ -53,8 +53,8 @@ button {
     cursor: pointer;
 }
 
-.button-order,
-.button-all {
+.order,
+.all {
     color: white
 }
 
@@ -86,9 +86,12 @@ footer {
     font-weight: 800;
     line-height: 1.17;
     text-transform: uppercase;
-    text-decoration: none;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .list {
