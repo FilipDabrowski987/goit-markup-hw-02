@@ -66,8 +66,9 @@ footer {
     letter-spacing: 0.03em;
 }
 
-.contact-link {
+.contact {
     color: #434455;
+    font-style: normal;
 }
 
 .filtr:hover,
