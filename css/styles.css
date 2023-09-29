@@ -91,6 +91,11 @@ footer {
     font-weight: 800;
     line-height: 1.17;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+}
+
+.link .nav {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
