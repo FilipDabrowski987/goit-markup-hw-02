@@ -20,7 +20,7 @@ color: #2e2f42;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     text-transform: capitalize;
@@ -56,6 +56,14 @@ button {
 .order,
 .all {
     color: white
+}
+
+.order {
+    background-color: #4D5AE5;
+}
+
+body > .order {
+    font-family: "Roboto", sans-serif;
 }
 
 footer {
@@ -96,15 +104,30 @@ footer {
     color: #4d5ae5;
 }
 
-.link .nav {
+.nav {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
+.nav:hover,
+.nav:focus {
+    color: #404bbf
+}
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style: none;
+}
+
+.first {
+    background-color: #2e2f42;
+}
+
+.main {
+    text-align: center;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+
 }
