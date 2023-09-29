@@ -16,7 +16,7 @@ header {
 }
 
 span {
-color: #f4f4fd;
+color: #2e2f42;
 }
 
 h1 {
@@ -80,14 +80,19 @@ footer {
     color: #4D5AE5
 }
 
+.link .logo:hover,
+.link .logo:focus {
+    color: #404bbf
+}
+
 .logo {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     line-height: 1.17;
     text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .link {
