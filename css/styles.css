@@ -54,7 +54,7 @@ p {
     cursor: pointer;
 }
 
-.order,
+.toorder,
 .all {
     color: white
 }
@@ -71,7 +71,8 @@ p {
     background-color: #404BBF;
 }
 
-.order {
+.toorder {
+    font-family: "Roboto", sans-serif;
     color: white;
     background-color: #4D5AE5;
     letter-spacing: 0.04em;
@@ -81,8 +82,8 @@ body > button {
     font-family: "Roboto", sans-serif;
 }
 
-.order:hover,
-.order:focus {
+.toorder:hover,
+.toorder:focus {
     background-color: #404BBF
 }
 
@@ -123,13 +124,13 @@ footer {
     color: #4d5ae5;
 }
 
-.nav {
+.link .nav {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.nav:hover,
-.nav:focus {
+.link .nav:hover,
+.link .nav:focus {
     color: #404bbf
 }
 .link {
@@ -139,7 +140,7 @@ footer {
 .linkpicpar {
     letter-spacing: 0.02em;
     color: #434455;
-    
+
 }
 
 .list {
