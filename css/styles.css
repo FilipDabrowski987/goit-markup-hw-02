@@ -58,12 +58,24 @@ button {
     color: white
 }
 
+.all {
+    color: #4d5ae5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+}
+
+.all:hover,
+.all:focus {
+    background-color: #404BBF;
+}
+
 .order {
+    color: white;
     background-color: #4D5AE5;
     letter-spacing: 0.04em;
 }
 
-body > .order {
+body > button {
     font-family: "Roboto", sans-serif;
 }
 
