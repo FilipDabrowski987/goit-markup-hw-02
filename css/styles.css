@@ -12,7 +12,7 @@ header {
 }
 
 span {
-color: #2e2f42;
+color: #f4f4fd;
 }
 
 h1 {
@@ -58,6 +58,8 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     color: #f4f4fd;
+    background-color: #2e2f42;
+    letter-spacing: 0.03em;
 }
 
 .contact-link {
@@ -81,6 +83,7 @@ footer {
     line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0.03em;
     color: #4d5ae5;
 }
 
