@@ -47,6 +47,7 @@ p {
 }
 
 .button {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -72,7 +73,6 @@ p {
 }
 
 .toorder {
-    font-family: "Roboto", sans-serif;
     color: white;
     background-color: #4D5AE5;
     letter-spacing: 0.04em;
