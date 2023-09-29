@@ -60,10 +60,16 @@ button {
 
 .order {
     background-color: #4D5AE5;
+    letter-spacing: 0.04em;
 }
 
 body > .order {
     font-family: "Roboto", sans-serif;
+}
+
+.order:hover,
+.order:focus {
+    background-color: #404BBF
 }
 
 footer {
@@ -77,11 +83,6 @@ footer {
 .contact {
     color: #434455;
     font-style: normal;
-}
-
-.filtr:hover,
-.filtr:focus {
-    color: #4D5AE5
 }
 
 .link:hover,
