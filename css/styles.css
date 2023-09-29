@@ -102,6 +102,12 @@ footer {
 .contact {
     color: #434455;
     font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404bbf;
 }
 
 .link:hover,
