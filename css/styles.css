@@ -1,5 +1,5 @@
 :root {
-        --primary-branc: #4d5ae5;
+        --primary-brand: #4d5ae5;
     --pressed-state: #404bbf;
     --dark: #2E2f42;
     --success: #31D0AA;
@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--text);
     background-color: var(--whit-background);
     font-size: 24px;
 }
@@ -57,6 +57,10 @@ p {
     line-height: 1.5;
 }
 
+address {
+    font-style: normal;
+}
+
 .button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -93,8 +97,8 @@ body > button {
     font-family: "Roboto", sans-serif;
 }
 
-.toorder:hover,
-.toorder:focus {
+.orderservice:hover,
+.orderservice:focus {
     background-color: #404BBF
 }
 
@@ -139,6 +143,16 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+}
+
+.link .nav .studio {
+    color: var(--dark);
+    letter-spacing: 0.02em;
+}
+
+.link .nav .studio:hover,
+.link .nav .studio:focus {
+    color: var(--pressed-state);
 }
 
 .link .nav {
