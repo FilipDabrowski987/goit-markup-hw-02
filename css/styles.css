@@ -60,6 +60,14 @@ p {
     letter-spacing: 0.02em;
 }
 
+.task {font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
 address {
     font-style: normal;
 }
