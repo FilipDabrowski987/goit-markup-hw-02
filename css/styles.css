@@ -148,14 +148,14 @@ footer {
     color: #f4f4fd;
 }
 
-.contact {
+.cont {
     color: #434455;
     font-style: normal;
     letter-spacing: 0.02em;
 }
 
-.contact:hover,
-.contact:focus {
+.cont:hover,
+.cont:focus {
     color: #404bbf;
 }
 
@@ -179,24 +179,14 @@ footer {
     color: #4d5ae5;
 }
 
-.link .nav .studio {
+.navigation {
     color: var(--dark);
     letter-spacing: 0.02em;
 }
 
-.link .nav .studio:hover,
-.link .nav .studio:focus {
+.navigation:hover,
+.navigation:focus {
     color: var(--pressed-state);
-}
-
-.link .nav {
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-}
-
-.link .nav:hover,
-.link .nav:focus {
-    color: #404bbf
 }
 .link {
     text-decoration: none;
