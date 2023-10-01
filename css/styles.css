@@ -148,7 +148,7 @@ footer {
     color: var(--light);
 }
 
-.linkcont {
+.cont {
     color: var(--text);
     font-style: normal;
     letter-spacing: 0.02em;
