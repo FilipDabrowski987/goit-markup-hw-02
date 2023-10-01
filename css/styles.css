@@ -108,19 +108,15 @@ address {
     cursor: pointer;
 }
 
-.toorder,
-.all {
-    color: white
-}
 
-.all {
+.filtr {
     color: #4d5ae5;
     letter-spacing: 0.04em;
     background-color: #F4F4FD;
 }
 
-.all:hover,
-.all:focus {
+.filtr:hover,
+.filtr:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
@@ -208,7 +204,8 @@ footer {
 
 .link .pic .par {
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text);
+    letter-spacing: 0.02em;
 
 }
 
