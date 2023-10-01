@@ -148,14 +148,14 @@ footer {
     color: var(--light);
 }
 
-.cont {
+.linkcont {
     color: #434455;
     font-style: normal;
     letter-spacing: 0.02em;
 }
 
-.cont:hover,
-.cont:focus {
+.linkcont:hover,
+.linkcont:focus {
     color: #404bbf;
 }
 
