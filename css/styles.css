@@ -161,12 +161,12 @@ footer {
 
 .link:hover,
 .link:focus {
-    color: #4D5AE5
+    color: #4D5AE5;
 }
 
 .link .logo:hover,
 .link .logo:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .logo {
