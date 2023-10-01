@@ -133,12 +133,12 @@ body > button {
 
 footer {
     line-height: 1.5;
-    background-color: #2e2f42;
+    background-color: var(--dark);
     letter-spacing: 0.03em;
 }
 
 .footer {
-    color: #f4f4fd;
+    color: var(--light);
 }
 
 .parinfoo {
@@ -149,24 +149,19 @@ footer {
 }
 
 .linkcont {
-    color: #434455;
+    color: var(--text);
     font-style: normal;
     letter-spacing: 0.02em;
 }
 
-.linkcont:hover,
-.linkcont:focus {
-    color: #404bbf;
-}
-
 .link:hover,
 .link:focus {
-    color: #4D5AE5;
+    color: var(--pressed-state);
 }
 
 .link .logo:hover,
 .link .logo:focus {
-    color: #404bbf;
+    color: var(--pressed-state);
 }
 
 .logo {
@@ -176,7 +171,7 @@ footer {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: var(--primary-brand);
 }
 
 .navigation {
@@ -204,7 +199,7 @@ footer {
 }
 
 .motto {
-    background-color: #2e2f42;
+    background-color: var(--dark);
 }
 
 .title {
@@ -214,7 +209,7 @@ footer {
 }
 
 .team{
-    background-color: #F4F4FD;
+    background-color: var(--light);
 }
 
 .head {
@@ -223,9 +218,9 @@ footer {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--dark);
 }
 
 .teamlist {
-    background-color: #FFFFFF;
+    background-color: var(--white-background);
 }
