@@ -27,7 +27,7 @@ header {
 }
 
 .header {
-color: #2e2f42;
+color: var(--dark);
 }
 
 .motto {
@@ -88,12 +88,7 @@ h3 {
     color: var(--dark);
 }
 
-.parinfoo {
-    font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--light);
-}
+
 
 address {
     font-style: normal;
@@ -104,26 +99,26 @@ address {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    color: #4D5AE5;
+    color: var(--primary-brand);
     cursor: pointer;
 }
 
 
 .filtr {
-    color: #4d5ae5;
+    color: var(--primary-brand);
     letter-spacing: 0.04em;
-    background-color: #F4F4FD;
+    background-color: var(--light);
 }
 
 .filtr:hover,
 .filtr:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-background);
+    background-color: var(--pressed-state);
 }
 
 .orderservice {
     color: white;
-    background-color: #4D5AE5;
+    background-color: var(--primary-brand);
     letter-spacing: 0.04em;
 }
 
@@ -133,19 +128,24 @@ body > button {
 
 .orderservice:hover,
 .orderservice:focus {
-    background-color: #404BBF
+    background-color: var(--pressed-state);
 }
 
 footer {
-    font-size: 16px;
     line-height: 1.5;
-    color: #f4f4fd;
     background-color: #2e2f42;
     letter-spacing: 0.03em;
 }
 
 .footer {
     color: #f4f4fd;
+}
+
+.parinfoo {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light);
 }
 
 .cont {
