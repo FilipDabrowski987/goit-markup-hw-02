@@ -202,7 +202,7 @@ footer {
     text-decoration: none;
 }
 
-.link .pic .par {
+.par {
     letter-spacing: 0.02em;
     color: var(--text);
     letter-spacing: 0.02em;
@@ -227,7 +227,7 @@ footer {
     background-color: #F4F4FD;
 }
 
-.team .head {
+.head {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
